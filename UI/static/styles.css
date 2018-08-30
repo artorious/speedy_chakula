@@ -45,10 +45,10 @@ article {
     padding: 20px;
 }
 
-input[type=text], input[type=password], input[type=email] {
+input[type=text], input[type=password], input[type=email], input[type=tel] {
     width: 100%;
     padding: 12px;
-    border: 1px solid black;
+    border: 1px solid red;
     border-radius: 4px;
     resize: vertical;
     font-size: 100%;
