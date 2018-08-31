@@ -175,3 +175,15 @@ button:hover {
     height: 100px;
     width: 50px;
 }
+
+.checked {
+    color: red;
+}
+
+figure {
+    display: inline;
+}
+
+figcaption {
+    display: inline-block;
+}
