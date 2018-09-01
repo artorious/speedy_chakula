@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Speedy Chakula | Fast Food Delivery</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Add icon library -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" media="screen" 
+    href="static/styles.css" />
+  <link rel="shortcut icon" href="static/favicon.ico" type="image/x-icon">
+</head>
+<body>
+<div class="page-content">
+  <header>
+    <h1>Speedy Chakula &trade; - Update Menu Items </h1>
+  </header>
+  <hr>
+  <nav >
+    <a href="update_food_items_page.html">
+      <button class="nav-btn">Back</button>
+    </a> |
+    <a href="index.html">
+      <button class="nav-btn">Sign Out</button>
+    </a>
+  </nav>
+
+  <h4>Update Menu Items</h4>
+  <hr>
+  
+  <div class="container">
+    <form action="update_food_items_page.html">
+      <fieldset>
+        <legend>Update Food Item</legend>
+        <div class="row">
+          <div class="col-25">
+            <label for="foodItemDescription">Description:</label>
+          </div>
+          <div class="col-75">
+            <input type="text" id="foodItemDescription" name="food descption" 
+              placeholder="Description of food item" required autofocus
+            >
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-25">
+            <label for="foodImage">Food Item Image:</label>
+          </div>
+          <div class="col-75">
+              <input type="file" name="pic" accept="image/*" required autofocus>
+          </div>
+        </div>
+        <div class="row">
+          <input type="submit" value="Update" formaction="update_food_items_page.html">
+        </div>
+      </fieldset>
+    </form>
+  </div>
+  <hr>
+  <footer>&copy;Speedy Chakula 2018.<br><a href="#">Contact Us.</a></footer>
+</div>
+</body>
+</html>
