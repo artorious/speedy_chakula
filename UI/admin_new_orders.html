@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Speedy Chakula | Fast Food Delivery</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Add icon library -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" media="screen" 
+    href="static/styles.css" />
+  <link rel="shortcut icon" href="static/favicon.ico" type="image/x-icon">
+</head>
+<body>
+<div class="page-content">
+  <header>
+    <h1>Speedy Chakula &trade; - New orders </h1>
+  </header>
+  <hr>
+  <nav >
+    <a href="#">
+      <button class="nav-btn">Current Open Orders</button>
+    </a> |
+    <a href="#">
+      <button class="nav-btn">Closed Order history</button>
+    </a> |
+    <a href="#">
+      <button class="nav-btn">Update food items</button>
+    </a> |
+    <a href="#">
+      <button class="nav-btn">Update Admin Details</button>
+    </a> |
+    <a href="index.html">
+      <button class="nav-btn">Sign Out</button>
+    </a>
+  </nav>
+  <article>
+    <a href="static/avatar.png">
+      <img src="static/images/avatar.png" alt="Default user avatar">
+    </a>
+    <h4>Aggregate User Rating</h4>
+    <span class="fa fa-star checked"></span>
+    <span class="fa fa-star checked"></span>
+    <span class="fa fa-star checked"></span>
+    <span class="fa fa-star "></span>
+    <span class="fa fa-star "></span>
+  </article>
+  <hr>
+  <h4>New incoming orders</h4>
+
+  <form action="#" id="newFoodOrder1">
+    <fieldset>
+      <legend>Order request by: <a href="tel:0727161173">artorious</a></legend>
+      <div class="row">
+        <div class="col-25">
+          <select name="orderApprovalStatus" id="orderApprovalStatus" onchange="">
+            <option value="orderApprovalStatus" selected>Order Approval Status</option>
+            <option value="acceptedOrder">Accept</option>
+            <option value="rejectedOrder">Reject</option>
+          </select>
+        </div>
+        <div class="col-75">
+          <figure>
+            <img src='static/images/soda_500ml.png' alt='Soda.' class="drink-image">
+            <figcaption>Date: 03-08-2018<br>Time: 1045hrs<br>2 Sodas</figcaption>
+          </figure>
+          <figure>
+            <img src='static/images/french-fries-clipart.jpg' alt="french fries" class="food-image" >
+            <figcaption>Date: 03-08-2018<br>Time: 1045hrs<br>2 French fries</figcaption>
+          </figure>
+          <figure>
+            <img src='static/images/chicken.gif' alt='chicken bucket.' class="food-image">
+            <figcaption>Date: 03-08-2018<br>Time: 1045hrs<br>1 chicken Bucket</figcaption>
+          </figure>
+        </div>
+      </div>
+    </fieldset>
+  </form>
+  <hr>
+  <form action="#" id="newFoodOrder2">
+    <fieldset>
+      <legend>Order request by: <a href="tel:0727161173">chronixx</a></legend>
+      <div class="row">
+        <div class="col-25">
+          <select name="orderApprovalStatus" id="orderApprovalStatus" onchange="">
+            <option value="orderApprovalStatus" selected>Order Approval Status</option>
+            <option value="acceptedOrder">Accept</option>
+            <option value="rejectedOrder">Reject</option>
+          </select>
+        </div>
+        <div class="col-75">
+          <figure>
+            <img src='static/images/cheeseburger.gif' alt='Cheeseburger.' class="food-image">
+            <figcaption>Date: 03-08-2018<br>Time: 1040hrs<br>5 Cheeseburgers</figcaption>
+          </figure>
+          <figure>
+            <img src='static/images/soda_500ml.png' alt='Soda.' class="drink-image">
+            <figcaption>Date: 03-08-2018<br>Time: 1040hrs<br>2 Sodas</figcaption>
+          </figure>
+
+        </div>
+      </div>
+    </fieldset>
+  </form>
+  <hr>
+  <form action="#" id="newFoodOrder3">
+    <fieldset>
+      <legend>Order request by: <a href="tel:0727161173">kendricklamar</a></legend>
+      <div class="row">
+        <div class="col-25">
+          <select name="orderApprovalStatus" id="orderApprovalStatus" onchange="">
+            <option value="orderApprovalStatus" selected>Order Approval Status</option>
+            <option value="acceptedOrder">Accept</option>
+            <option value="rejectedOrder">Reject</option>
+          </select>
+        </div>
+        <div class="col-75">
+          <figure>
+            <img src='static/images/cheese-hamburger-clipart-938.jpg' alt='Cheeseburger.' class="food-image">
+            <figcaption>Date: 03-08-2018<br>Time: 1030hrs<br>3 Cheeseburgers</figcaption>
+          </figure>
+        </div>
+      </div>
+    </fieldset>
+  </form>
+  <hr>
+  <footer>&copy;Speedy Chakula 2018.<br><a href="#">Contact Us.</a></footer>
+</div>
+</body>
+</html>
