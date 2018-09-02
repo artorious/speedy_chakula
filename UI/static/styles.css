@@ -20,11 +20,11 @@ body {
     margin: 0 auto;
     position: relative;
     display: block;
-    background-image: url("images/yellow_table_pattern.jpg")
+    background-image: url("images/yellow_table_pattern.jpg");
 }
 
 header {   
-    background-color: red;
+    background-color: purple;
     color: yellow;
     border: 5px solid yellow;
     text-align: center; 
@@ -48,7 +48,7 @@ article {
 input[type=text], input[type=password], input[type=email], input[type=tel] {
     width: 100%;
     padding: 12px;
-    border: 1px solid red;
+    border: 1px solid purple;
     border-radius: 4px;
     resize: vertical;
     font-size: 100%;
@@ -60,7 +60,7 @@ label {
 }
 
 input[type=submit], select {
-    background-color: red;
+    background-color: purple;
     font-size: 100%;
     color: yellow;
     font-size: 100%;
@@ -78,7 +78,7 @@ input[type=submit]:hover {
 }
 
 footer {
-    background-color: red;
+    background-color: purple;
     color: yellow; 
     text-align: center;   
 }
@@ -93,8 +93,8 @@ footer a {
 
 button {
     margin: auto;
-    background-color: black;
-    color: yellow;
+    background-color: yellow;
+    color: purple;
     padding: 12px 20px;
     border: none;
     border-radius: 5px;
@@ -164,7 +164,7 @@ button:hover {
     display: inline inline-block;
 }
 
-.nav-btn:hover {background:yellow}
+.nav-btn:hover {background:purple}
 
 .food-image {
     height: 100px;
@@ -177,13 +177,15 @@ button:hover {
 }
 
 .checked {
-    color: red;
+    color: purple;
 }
 
 figure {
     display: inline;
+    
 }
 
 figcaption {
     display: inline-block;
+    background-color: yellow;
 }
