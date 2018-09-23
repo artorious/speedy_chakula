@@ -171,11 +171,13 @@ button:hover {
 .display-food-image {
     height: 500px;
     width: 90%;
+    border-radius: 15%;
 }
 
 .food-image {
     height: 100px;
     width: 100px;
+    border-radius: 15%;
 }
 
 .drink-image {
