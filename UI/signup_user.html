@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="utf-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <title>Speedy Chakula | Fast Food Delivery</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" type="text/css" media="screen" 
+        href="static/styles.css" />
+      <link rel="shortcut icon" href="static/favicon.ico" type="image/x-icon">
+    </head>
+<body>
+<div class="page-content">
+  <header>
+    <h1>Speedy Chakula &trade;</h1>
+  </header>
+  <hr>
+  <nav>
+    <a href="index.html">
+      <button class="nav-btn">Home</button>
+    </a>
+  </nav>
+  <article>
+      <p>Register a user account to make orders.</p>
+  </article>
+  <hr>
+  <div class="container">
+    <form action="#">
+      <fieldset>
+        <legend>User Registration</legend>
+        <div class="row">
+          <div class="col-25">
+            <label for="username">Username :</label>
+          </div>
+          <div class="col-75">
+            <input type="text" id="username" name="user_name" 
+              placeholder="johnSmith" required autofocus
+            >
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="userEmail">Email :</label>
+          </div>
+          <div class="col-75">
+            <input type="email" id="userEmail" name="userEmail" 
+              placeholder="JohnSmith@email.com" required autofocus
+            >
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="userCell">Mobile No:</label>
+          </div>
+          <div class="col-75">
+            <input type="tel" id="userCell" name="userCell" placeholder="0727161173" 
+              required autofocus
+            >    
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="userPassword">User Password :</label>
+          </div>
+          <div class="col-75">
+            <input id="userPassword" type="password" name="user_password" 
+              autocomplete="off" required autofocus placeholder="********"
+            >
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="CofirmPassword">Confirm Password:</label>
+          </div>
+          <div class="col-75">
+            <input id="CofirmPassword" type="password" name="confirm_password" 
+              autocomplete="off" required autofocus placeholder="********"
+            >
+          </div>
+        </div>
+        <div class="row">
+          <label for="AgreeTerms">
+            <a href="#">I Agree with Terms and conditions</a>
+          </label>
+          <input id="AgreeTerms" type="checkbox" required>
+        </div>
+        <div class="row">
+          <input type="submit" value="Register Account">
+        </div>
+      </fieldset>
+      <div>
+          <p>
+            Already have an account? 
+            <a href="index.html">Sign In</a>.
+          </p>
+        </div>
+    </form>
+  </div>
+  <hr>
+  <footer>&copy;Speedy Chakula 2018.<br><a href="#">Contact Us.</a></footer>
+</div>
+</body>
+</html>
